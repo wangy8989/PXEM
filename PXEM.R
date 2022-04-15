@@ -35,6 +35,7 @@ PXEM <- function(X, y, Z, max.iter = 3000 , eps = 0.000001){
     delta <- 1L
     iter <- iter + 1
   }
- 
+  para <- c(Sig_e2, Sig_b2)
+ return(para)
 }
 
